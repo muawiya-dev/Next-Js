@@ -7,15 +7,17 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+          <code className={styles.code}>Adam-Saad</code>
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://github.com/muawiya-dev"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+                  <Button />
+
+            Hello{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -31,7 +33,7 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/AS-logo.jpg"
           alt="Next.js Logo"
           width={180}
           height={37}
@@ -91,5 +93,17 @@ export default function Home() {
         </a>
       </div>
     </main>
+  );
+}
+
+
+function Button() {
+  const value = 234;
+  return (
+    <div style={{ border: "3px solid gray" }}>
+      <h1>Hello Adam {value}</h1>
+      <p>i'm a Programmer</p>
+      <button>Click me</button>
+    </div>
   );
 }
